@@ -2,7 +2,7 @@
 
 List of workshop
 
-* Fizzbuzz
+* [Fizzbuzz](https://github.com/up1/java-tdd-workshop/tree/master/fizzbuzz)
 * Phone formatting
 
 
