@@ -1,3 +1,4 @@
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -6,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 
 public class RangeTest {
 
-    @Test
+    @Test @Ignore
     public void
     ตรวจสอบว่าเป็น_ก้ามปูเปิด() {
         MyRange range = new MyRange();
@@ -14,7 +15,7 @@ public class RangeTest {
         assertTrue("ต้องเป็นก้ามปูเปิดนะ", actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void
     ตรวจสอบว่าเป็น_วงเล็บเปิด() {
         MyRange range = new MyRange();
@@ -22,7 +23,7 @@ public class RangeTest {
         assertFalse("ต้องเป็นวงเล็บเปิดนะ", actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void
     หาตัวเลขเริ่มต้น() {
         MyRange range = new MyRange();
@@ -30,7 +31,7 @@ public class RangeTest {
         assertEquals(1, actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void
     หาตัวเลขเริ่มต้น2() {
         MyRange range = new MyRange();
@@ -38,7 +39,7 @@ public class RangeTest {
         assertEquals(2, actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void
     หาตัวเลขเริ่มต้น3() {
         MyRange range = new MyRange();
@@ -46,7 +47,7 @@ public class RangeTest {
         assertEquals(2, actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void
     ตรวจสอบว่าเป็น_ก้ามปูปิด() {
         MyRange range = new MyRange();
@@ -54,7 +55,7 @@ public class RangeTest {
         assertTrue("ต้องเป็นก้ามปูปิดนะ", actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void
     ตรวจสอบว่าเป็น_วงเล็บปิด() {
         MyRange range = new MyRange();
@@ -62,7 +63,7 @@ public class RangeTest {
         assertFalse("ต้องเป็นวงเล็บปิดนะ", actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void
     หาตัวเลขสุดท้าย() {
         MyRange range = new MyRange();
@@ -70,7 +71,7 @@ public class RangeTest {
         assertEquals(5, actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void
     หาตัวเลขสุดท้าย2() {
         MyRange range = new MyRange();
@@ -78,7 +79,7 @@ public class RangeTest {
         assertEquals(4, actualResult);
     }
 
-    @Test
+    @Test @Ignore
     public void final_problem() {
         MyRange range = new MyRange();
         assertEquals("12345", range.of("[1,5]"));
