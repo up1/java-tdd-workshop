@@ -13,3 +13,9 @@ List of workshop
 ```
 $mvn clean test
 ```
+
+
+## Assignment 1
+
+* [x] เขียนที่เรียนวันนี้ใส่ WIKI
+* [x] Commit และ push code ขึ้น Github ของแต่ละคน
