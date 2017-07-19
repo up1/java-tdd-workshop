@@ -4,8 +4,8 @@ List of workshop
 
 * [Fizzbuzz](https://github.com/up1/java-tdd-workshop/tree/master/fizzbuzz)
 * [Range](https://github.com/up1/java-tdd-workshop/tree/master/range)
-* Prime Factor
-* Phone formatting
+* [Prime Factor](https://github.com/up1/java-tdd-workshop/tree/master/prime_factor)
+* Format Phone formatting
 
 
 
